@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tasklists Snapshot 1`] = `
+<div
+  className="sc-bdVaJa frqUrk"
+>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Segunda
+    </h2>
+    <ul>
+      <li
+        className="sc-htpNat kZXTHZ"
+      >
+        text
+      </li>
+    </ul>
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Terça
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Quarta
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Quinta
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Sexta
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Sábado
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="sc-bwzfXH hHiqeQ"
+  >
+    <h2>
+      Domingo
+    </h2>
+    <ul />
+  </div>
+</div>
+`;

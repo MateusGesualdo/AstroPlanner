@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot 1`] = `
+<div
+  className="sc-bZQynM eMAFUZ"
+>
+  <h1>
+    Planejamento Semanal
+  </h1>
+  <form
+    className="sc-bwzfXH bRcjrU classes.root"
+    onSubmit={[Function]}
+  >
+    <input
+      className="sc-htpNat dJGdEm"
+      name="text"
+      onChange={[Function]}
+      placeholder="Nova Tarefa"
+      required={true}
+    />
+    <select
+      name="day"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Selecione um dia
+      </option>
+      <option>
+        Segunda
+      </option>
+      <option>
+        Terça
+      </option>
+      <option>
+        Quarta
+      </option>
+      <option>
+        Quinta
+      </option>
+      <option>
+        Sexta
+      </option>
+      <option>
+        Sábado
+      </option>
+      <option>
+        Domingo
+      </option>
+    </select>
+    <button
+      className="sc-bdVaJa edZuZW"
+      type="submit"
+    >
+      Salvar
+    </button>
+  </form>
+  <div
+    className="sc-bxivhb eVGvmQ"
+  >
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Segunda
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Terça
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Quarta
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Quinta
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Sexta
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Sábado
+      </h2>
+      <ul />
+    </div>
+    <div
+      className="sc-ifAKCX gIMAUz"
+    >
+      <h2>
+        Domingo
+      </h2>
+      <ul />
+    </div>
+  </div>
+</div>
+`;
