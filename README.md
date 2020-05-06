@@ -27,4 +27,4 @@ This project is originally a demo integrated with Labenu's API:
 Therefore, in order to run the tests regarding Axios, 
 you need to comment the functions **create** and **fetchTasks** at `src/actions/index.js`
 and uncomment their respective counterparts.
-Notice that the "Clear All" button has no functionality in this version of the app.
+Notice that the "Clear All" button has no use in this version of the app.
