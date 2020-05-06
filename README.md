@@ -12,8 +12,7 @@
 
 ## Language
 The app is originally designed for Portuguese speakers. 
-Nonetheless, it's fairly intuitive and can be translated to English by Google Chrome, for instance.
-Notice, however, that "Wednesday" and "Thursday" will be wrongly translated as "Fourth" and "Fifth"
+Nonetheless, it's fairly intuitive and can be translated to English by Google Chrome, for instance (notice, however, that "Wednesday" and "Thursday" will be wrongly translated as "Fourth" and "Fifth").
 
 ## Running the project 
 * Clone this repository into your machine
