@@ -15,7 +15,7 @@ Nonetheless, it's fairly intuitive and can be translated to English using Google
 Notice, however, that "Wednesday" and "Thursday" will be wrongly translated as "Fourth" and "Fifth"
 
 ## Running the project 
-* Clone this repository in your machine
+* Clone this repository into your machine
 * Open your terminal inside the cloned repo and run `npm install` and `npm run start`
 
 ## API
