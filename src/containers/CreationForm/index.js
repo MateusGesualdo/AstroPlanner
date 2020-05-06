@@ -3,26 +3,32 @@ import { connect } from 'react-redux'
 import { create } from '../../actions'
 import styled from 'styled-components'
 
-export const Button = styled.button`
+const Button = styled.button`
     border-radius: 3px;
     background-color: darkgreen;
     color: white;
 `
-export const Form = styled.form`
+const Form = styled.form`
     display: flex;    
 `
-export const Input = styled.input`
+const Input = styled.input`
    
 `
 
-export function CreationForm(props) {
+function CreationForm(props) {
 
-    const [newTask, setTask] = useState({})
+    const [newTask, setTask] = useState({
+        text:'',
+        day:''
+    })
 
     const handleSubmission = ev => {
         ev.preventDefault()
         props.create(newTask) 
-        setTask({})
+        setTask({
+            text:'',
+            day:''
+        })
     }
 
     const handleChange = ev => {
@@ -36,7 +42,6 @@ export function CreationForm(props) {
 
         <Form
             onSubmit={handleSubmission}
-            className={'classes.root'}
         >
 
             <Input
