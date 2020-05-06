@@ -21,7 +21,7 @@ Notice, however, that "Wednesday" and "Thursday" will be wrongly translated as "
 
 ## API
 This project is originally a demo integrated with Labenu's API: 
-  *https://us-central1-missao-newton.cloudfunctions.net/generic/planner-mateus*.
+  https://us-central1-missao-newton.cloudfunctions.net/generic/planner-mateus.
 Therefore, in order to run the tests regarding Axios, 
 you need to comment the functions **create** and **fetchTasks** at `src/actions/index.js`
 and uncomment their respective counterparts.
