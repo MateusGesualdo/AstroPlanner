@@ -22,6 +22,6 @@ Notice, however, tha "Wednesday" and "Thursday" will be mistakenly translated as
 This project is originally a demo integrated with Labenu's API: 
   *https://us-central1-missao-newton.cloudfunctions.net/generic/planner-mateus*.
 Therefore, in order to run the tests regarding Axios, 
-you need to comment the functions **create** and **fetchTasks** at src/actions/index.js
-and uncomment the respective functions with the same names that are currently commented.
-Notice that the "Clear" button will have no functionality in this version of the app.
+you need to comment the functions **create** and **fetchTasks** at `src/actions/index.js`
+and uncomment their respective counterparts.
+Notice that the "Clear All" button has no functionality in this version of the app.
