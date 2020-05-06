@@ -5,7 +5,7 @@
 * React.js
 * Redux
 * Axios
-* Materia-UI
+* Material-UI
 * Styled-components
 * Jest
 * Enzyme
