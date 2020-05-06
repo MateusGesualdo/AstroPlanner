@@ -11,34 +11,72 @@ const setTasks = list => ({
     payload: { list }
 })
 
+// export const fetchTasks = () => (dispatch) => {
+//     axios
+//         .get(baseUrl)
+//         .then(response => dispatch(setTasks(response.data)))
+//         .catch(() => handleError())
+// }
+
 export const fetchTasks = () => (dispatch) => {
-    axios
-        .get(baseUrl)
-        .then(response => dispatch(setTasks(response.data)))
-        .catch(() => handleError())
+    const tasks = JSON.parse(
+        window.localStorage.getItem("tasks")
+    ) || []
+    console.log(tasks)
+    dispatch(setTasks(tasks))
 }
+
+// export const create = (newTask) => (dispatch) => {
+//     const text = newTask.text
+//     const textWithoutSpaces = text.replace(/ /g, '') 
+
+//     if (textWithoutSpaces === '') {
+//         alert("ERRO: Texto inválido")
+//     } else if (!newTask.day){
+//         alert("ERRO: Dia da semana inválido")
+//     }else{
+
+//         const data = {
+//             text: newTask.text,
+//             day: newTask.day
+//         }
+
+//         axios
+//             .post(baseUrl, data)
+//             .then(() => {
+//                 alert("Tarefa Criada!")
+//                 dispatch(fetchTasks())
+//             })
+//             .catch(() => handleError())
+//     }
+
+// }
 
 export const create = (newTask) => (dispatch) => {
     const text = newTask.text
-    const textWithoutSpaces = text.replace(/ /g, '') 
-    
+    const textWithoutSpaces = text.replace(/ /g, '')
+
     if (textWithoutSpaces === '') {
         alert("ERRO: Texto inválido")
-    } else if (!newTask.day){
-        alert("ERRO: Dia da semana inválido")
-    }else{
-        const data = {
+    } else if (!newTask.day) {
+        alert("ERRO: Selecione um da semana")
+    } else {
+
+        const tasks = JSON.parse(
+            window.localStorage.getItem("tasks")
+        ) || []
+
+        tasks.push({
+            id: Date.now(),
             text: newTask.text,
             day: newTask.day
-        }
+        })
 
-        axios
-            .post(baseUrl, data)
-            .then(() => {
-                alert("Tarefa Criada!")
-                dispatch(fetchTasks())
-            })
-            .catch(() => handleError())
+        window.localStorage.setItem(
+            "tasks",
+            JSON.stringify(tasks)
+        )
+
+        dispatch(setTasks(tasks))
     }
-
 }

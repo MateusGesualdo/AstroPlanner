@@ -15,6 +15,8 @@ const Card = styled.div`
     background-color: rgb(250, 236, 127);
     padding: 0 1em 3em;
     color:black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
 `
 
 const ListItem = styled.li`

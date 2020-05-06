@@ -3,16 +3,13 @@ import { connect } from 'react-redux'
 import { create } from '../../actions'
 import styled from 'styled-components'
 
-const Button = styled.button`
+export const Button = styled.button`
     border-radius: 3px;
-    background-color: darkgreen;
+    background-color: ${props => props.color};
     color: white;
 `
 const Form = styled.form`
     display: flex;    
-`
-const Input = styled.input`
-   
 `
 
 function CreationForm(props) {
@@ -44,7 +41,7 @@ function CreationForm(props) {
             onSubmit={handleSubmission}
         >
 
-            <Input
+            <input
                 name="text"
                 value={newTask.text}
                 onChange={handleChange}
@@ -65,7 +62,7 @@ function CreationForm(props) {
                 <option>Sábado</option>
                 <option>Domingo</option>
             </select>
-            <Button type="submit">Salvar</Button>
+            <Button type="submit" color="darkgreen" >Salvar</Button>
         </Form>
     );
 
