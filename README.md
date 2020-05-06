@@ -1,5 +1,5 @@
 # AstroPlanner
-!()[print.png]
+!(Screenshot)[print.png]
 
 ## Stack
 * React.js
