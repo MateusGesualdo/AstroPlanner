@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/AstroPlanner/static/js/main.3a796916.chunk.js",
+    "main.js.map": "/AstroPlanner/static/js/main.3a796916.chunk.js.map",
+    "runtime~main.js": "/AstroPlanner/static/js/runtime~main.4a6e915b.js",
+    "runtime~main.js.map": "/AstroPlanner/static/js/runtime~main.4a6e915b.js.map",
+    "static/js/2.736a9be6.chunk.js": "/AstroPlanner/static/js/2.736a9be6.chunk.js",
+    "static/js/2.736a9be6.chunk.js.map": "/AstroPlanner/static/js/2.736a9be6.chunk.js.map",
+    "index.html": "/AstroPlanner/index.html",
+    "precache-manifest.c2b5af4801ab9ff99ec3324ac428dc01.js": "/AstroPlanner/precache-manifest.c2b5af4801ab9ff99ec3324ac428dc01.js",
+    "service-worker.js": "/AstroPlanner/service-worker.js",
+    "static/media/background.jpg": "/AstroPlanner/static/media/background.45d78fdb.jpg"
+  }
+}
